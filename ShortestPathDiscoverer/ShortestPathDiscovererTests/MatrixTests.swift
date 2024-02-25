@@ -34,7 +34,7 @@ final class ShortestPathDiscovererTests: XCTestCase {
     }
 
     func testFirstExampleCase() throws {
-        let testCase1 = "3 4 1 2 8 6\n6 1 8 2 7 4\n5 9 3 9 9 5\n8 4 1 3 2 6\n3 7 2 8 6 4
+        let testCase1 = "3 4 1 2 8 6\n6 1 8 2 7 4\n5 9 3 9 9 5\n8 4 1 3 2 6\n3 7 2 8 6 4"
         Task {
             let validPaths : Set = [[0,1,2,3,3,4], [1,2,3,4,4,5]]
             let m = try Loader.load(testCase1)
