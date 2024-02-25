@@ -7,10 +7,10 @@ The app screen has three sections.
 
 The top section provides instructions as to how to enter grid entries. 
 
-The middle section is provided to enter the grid one row perline with column values separated by ','
+The middle section is provided to enter the grid one row perline with column values separated by space(' ')
 such as:
-1,2,3
-4,5,6
+1 2 3
+4 5 6
 
 Once the grid values are entered, tap on the 'Find The Shortest Path' button.
 
