@@ -18,11 +18,11 @@ final class LoaderTest: XCTestCase {
     }
 
     func testFirstLoad() throws {
-        try Loader.load("1,2,3\n3 , 4, 5\n")
+        try Loader.load("1 2 3\n3   4 5\n")
     }
 
     func testSecondLoad() throws {
-        try Loader.load("\n\n1,2,3\n3 , 4, 5\n\n")
+        try Loader.load("\n\n1 2 3\n3   4  5\n\n")
     }
     
     func testPerformanceExample() throws {
