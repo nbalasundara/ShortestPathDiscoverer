@@ -26,16 +26,19 @@ class Loader {
     ///
     static func load(_ input : String) throws -> Matrix<Int>?  {
         let rows : [String] = input.trimmingCharacters(in: .whitespacesAndNewlines)
-            .replacingOccurrences(of:"[n]+", with:"\n")
+            .replacingOccurrences(of:"[\n]+", with:"\n")
             .components(separatedBy: "\n")
-        let firstColumn = rows[0].components(separatedBy: ",")
+        let firstColumn = rows[0].replacingOccurrences(of:"[' ']+", with:" ").components(separatedBy: " ")
         
         let gridMatrix : Matrix<Int> = Matrix<Int>(rows:rows.count, columns:firstColumn.count)
         var rowNum = 0
         for row in rows {
             var columnNum = 0
-            let columns = row.components(separatedBy: ",")
+            let columns = row.replacingOccurrences(of:"[' ']+", with:" ").components(separatedBy: " ")
             for column in columns {
+                if column == "" {
+                    continue
+                }
                 guard let value = Int(column.trimmingCharacters(in: .whitespacesAndNewlines)) else { return nil }
                 gridMatrix[rowNum, columnNum] = value
                 columnNum += 1
