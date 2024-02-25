@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "92A3BF8C-36E2-43A1-9881-1C6C75545DF2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D84F6C0-B7DC-4494-9B24-E08CB5E66842"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShortestPathDiscovererTests/LoaderTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "testFirstLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D84F6C0-B7DC-4494-9B24-E08CB5E66842 - 8234e4be854fa32a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShortestPathDiscovererTests.LoaderTest.testExample() throws -&gt; ()"
+                  moduleName = "ShortestPathDiscovererTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nb/Documents/Coding/iOS/ShortestPathDiscoverer/ShortestPathDiscovererTests/LoaderTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "4D84F6C0-B7DC-4494-9B24-E08CB5E66842 - 751a25c34146d30f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShortestPathDiscovererTests.LoaderTest.testLoad() throws -&gt; ()"
+                  moduleName = "ShortestPathDiscovererTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nb/Documents/Coding/iOS/ShortestPathDiscoverer/ShortestPathDiscovererTests/LoaderTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "4D84F6C0-B7DC-4494-9B24-E08CB5E66842 - fa0d193ee18104dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShortestPathDiscovererTests.LoaderTest.testFirstLoad() throws -&gt; ()"
+                  moduleName = "ShortestPathDiscovererTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nb/Documents/Coding/iOS/ShortestPathDiscoverer/ShortestPathDiscovererTests/LoaderTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
