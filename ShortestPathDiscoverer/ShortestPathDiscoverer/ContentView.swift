@@ -14,7 +14,7 @@ struct ContentView: View {
         List {
             VStack {
                 Text("Input grid").bold()
-                Text("Enter below one row per line, column values in the row separated by commas. Tap on 'Find the shortest Path' button once done to find the shortest path, if one exists.")
+                                Text("Enter below one row per line, column values in the row separated by space. Tap on 'Find the shortest Path' button once done to find the shortest path, if one exists.")
                 Divider()
                 TextEditor(text: $inputGrid).frame(height: 400)
                     .padding(.horizontal)
