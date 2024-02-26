@@ -1,5 +1,5 @@
 # ShortestPathDiscoverer
-This is an iOS app to find the shortest path in a grid from left to right where the rows wrap around
+This is an iOS app to find the shortest path in a grid from left to right where the rows wrap around.
 
 The program finds the path of lowest cost when moving across a grid. The grid contains integers where each integer represents the amount of cost encountered at a given point on the grid. A path enters the grid from the left (at any point) and passes through the grid to the right, moving only one column per round. Movement is always to the same row or an adjacent row, meaning the path can proceed horizontally or diagonally. The first and last row are considered adjacent. Effectively, the grid “wraps”. Grid entries can be both negative and positive. The search stops when the total cost of any path to the right most edge exceeds 50.
 
