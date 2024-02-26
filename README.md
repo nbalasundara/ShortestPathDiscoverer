@@ -14,4 +14,4 @@ such as:
 
 Once the grid values are entered, tap on the 'Find The Shortest Path' button.
 
-The answer is presented with the first line is either “Yes” or “No” to indicate the path made it all the way through the grid. The second line is the total cost. The third line shows the path taken as a sequence of n delimited integers, each representing the rows traversed in turn. If there is more than one path of least cost, only one path is shown in the solution.
+The answer is presented with the first line is either “Yes” or “No” to indicate the path made it all the way through the grid. The second line is the total cost. The third line shows the path taken as a sequence of delimited integers, each representing the rows traversed in turn. If there is more than one path of least cost, only one path is shown in the solution.
